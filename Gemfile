@@ -20,7 +20,7 @@ gem 'rack-cors', :require => 'rack/cors'
 
 # Testing environment
 group :test do
-  gem 'rspec-rails'
+  gem 'rspec-rails', '~> 3.0'
   gem 'factory_girl_rails'
   gem 'database_cleaner'
   gem 'faker'
